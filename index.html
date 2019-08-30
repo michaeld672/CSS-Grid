@@ -12,7 +12,12 @@
                 display: grid;
                 /* grid-template-columns: 30% 20% 50%; */
                 /* grid-template-columns: 1fr 2fr 1fr; */
-                grid-template-columns: repeat(9, 1fr);
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(3, minmax(200px, auto));
+                /* grid-auto-rows: minmax(200px, auto); */
+                grid-column-gap: 10px;
+                grid-row-gap: 10px;
+                grid-gap: 10px;
                 max-width: 960px;
                 margin: 0 auto;
             }
@@ -31,7 +36,10 @@
 
             <div>1</div>
             <div>2</div>
-            <div>3</div>
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident 
+                similique autem enim quidem, dolorem incidunt delectus dolores quaerat 
+                nostrum odit debitis cumque saepe quia eligendi earum eius quibusdam mollitia? 
+                Officia!</div>
             <div>4</div>
             <div>5</div>
             <div>6</div>
